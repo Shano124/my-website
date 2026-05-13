@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(39, 39, 39);
+    text-align: center;
+    width: 100%;
+    color:aliceblue;
+    align-items: center;
+    justify-content: center;
+
+}
+header{
+    background-color: rgb(39, 39, 39);
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+header nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+img{
+    border-radius: 50px;
+}
+#about, #contact{
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(85, 58, 58);
+    border-radius: 10px;
+}
+#about:hover, #contact:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
