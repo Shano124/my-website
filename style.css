@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(39, 39, 39);
+    background-color: rgb(0, 27, 53);
     text-align: center;
     width: 100%;
     color:aliceblue;
@@ -8,7 +8,7 @@ body{
 
 }
 header{
-    background-color: rgb(39, 39, 39);
+    background-color: rgb(0, 38, 70);
     color: white;
     padding: 20px;
     display: flex;
@@ -18,7 +18,10 @@ header{
 header nav a{
     color: white;
     text-decoration: none;
-    margin: 0 10px;
+    background-color: rgb(7, 7, 7);
+    border-radius: 10px;
+    gap: 10px;
+    width: 100px;
 }
 img{
     border-radius: 50px;
@@ -30,10 +33,68 @@ img{
     border-radius: 10px;
 }
 #about:hover, #contact:hover{
-    transform: scale(1.1);
+    transform: scale(1.01);
     transition: transform 0.3s;
 }
 .img{
     display: flex;
     justify-content: center;
+}
+header h1{
+    color:rgb(15, 255, 87);
+    font-size:larger;
+    background-color:rgb(7, 7, 7);
+    width: 100px;
+    border-radius: 10px;
+}
+header nav{
+    display: flex;
+    gap: 10px;
+}
+header nav a:hover{
+    background-color: rgb(7, 7, 7);
+    color: rgb(15, 255, 87);
+    transition: background-color 0.3s, color 0.3s;
+    transform: scale(1.1);
+}
+.my{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    height: 200px;
+    width: 100%;
+}
+.my div{
+    background-color: #ff0f0f;
+    border-radius: 50%;
+    width: 240px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 50px;
+    flex-direction: column;
+    justify-content: center;
+}
+.my div:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s;
+    rotate: 5deg;
+    filter: drop-shadow(0 0 5px #e0dcdc);
+}
+#myskill{
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(26, 26, 26);
+    border-radius: 10px;
+}
+#myskill h2{
+    color: rgb(15, 255, 87);
+    font-size: larger;
+    background-color: rgb(7, 7, 7);
+    width: 150px;
+    border-radius: 10px;
+    margin: auto;
+    margin-left: 0;
 }
