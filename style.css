@@ -1,5 +1,10 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+}
+
 body{
-    background-color: rgb(0, 27, 53);
+    background-color: rgb(255, 255, 255);
     text-align: center;
     width: 100%;
     color:aliceblue;
@@ -8,7 +13,7 @@ body{
 
 }
 header{
-    background-color: rgb(0, 38, 70);
+    background-color: rgb(223, 214, 214);
     color: white;
     padding: 20px;
     display: flex;
@@ -16,7 +21,7 @@ header{
     width: 100%;
 }
 header nav a{
-    color: white;
+    color: rgb(245, 243, 243);
     text-decoration: none;
     background-color: rgb(7, 7, 7);
     border-radius: 10px;
@@ -29,8 +34,9 @@ img{
 #about, #contact{
     margin: 20px;
     padding: 20px;
-    background-color: rgb(85, 58, 58);
+    background-color: rgb(0, 10, 44);
     border-radius: 10px;
+    height: 150px;
 }
 #about:hover, #contact:hover{
     transform: scale(1.01);
@@ -52,7 +58,7 @@ header nav{
     gap: 10px;
 }
 header nav a:hover{
-    background-color: rgb(7, 7, 7);
+    background-color: rgb(196, 11, 11);
     color: rgb(15, 255, 87);
     transition: background-color 0.3s, color 0.3s;
     transform: scale(1.1);
@@ -66,7 +72,7 @@ header nav a:hover{
     width: 100%;
 }
 .my div{
-    background-color: #ff0f0f;
+    background-color: #00d6ba;
     border-radius: 50%;
     width: 240px;
     text-align: center;
@@ -82,6 +88,7 @@ header nav a:hover{
     transition: transform 0.3s;
     rotate: 5deg;
     filter: drop-shadow(0 0 5px #e0dcdc);
+    border-radius: 50px;
 }
 #myskill{
     margin: 20px;
@@ -97,4 +104,11 @@ header nav a:hover{
     border-radius: 10px;
     margin: auto;
     margin-left: 0;
+}
+footer{
+    background-color: rgb(0, 38, 70);
+    color: white;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
 }
